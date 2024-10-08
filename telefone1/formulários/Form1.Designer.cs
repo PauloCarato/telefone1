@@ -65,6 +65,7 @@
             ClientSize = new Size(415, 245);
             Controls.Add(pictureBox1);
             Controls.Add(progressBar1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
