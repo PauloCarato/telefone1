@@ -21,13 +21,15 @@ namespace telefone1
 
         private void cadastrar_Load(object sender, EventArgs e)
         {
+
             cadastrarBTN.Enabled = false;
         }
 
         private void cadastrar_enabled()
         {
+
             //seguintes condições: usuário preenchido, senha preenchida e telefone.
-            cadastrarBTN.Enabled = (UsuárioCreate.Text.Length > 0 && SenhaCreate.Text.Length >= 8 && TelefoneCreate.Text.Length == 8);
+            cadastrarBTN.Enabled = (UsuárioCreate.Text.Length > 0 && SenhaCreate.Text.Length >= 8 && TelefoneCreate.Text.Length == 11);
         }
 
         private void UsuárioCreate_TextChanged(object sender, EventArgs e)
